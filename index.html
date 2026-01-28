@@ -3,22 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do App</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mohammed Ismail | Web Developer</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="todo-container">
-    <h1>My Tasks</h1>
+<header class="hero" id="home">
+    <h1>Hi, I'm Mohammed Ismail</h1>
+    <p>Frontend Web Developer & Freelancer</p>
+    <a href="#projects" class="btn" >View My Work</a>
+</header>
 
-    <div class="input-box">
-        <input type="text" id="taskInput" placeholder="Enter a task">
-        <button id="addBtn">Add</button>
+<section id="about" class="reveal">
+    <h2>About Me</h2>
+    <p>
+        I build modern, responsive, and interactive websites using
+        HTML, CSS, and JavaScript. I focus on clean UI and smooth user experience.
+    </p>
+</section>
+
+<section id="skills" class="reveal">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>Responsive Design</span>
     </div>
+</section>
 
-    <ul id="taskList"></ul>
-</div>
+<section id="projects" class="reveal">
+    <h2>Projects</h2>
+    <div class="project-list">
+        <div class="project">
+            <h3>Interactive To-Do App</h3>
+            <p>Task manager with animations and local storage.</p>
+            <a href="https://mohammedismail-devops.github.io/todo-app/" target="_blank">Live</a> | <a href="https://mohammedismail-devops.github.io/todo-app/" target="_blank">Code</a>
+        </div>
 
-<script src="script.js"></script>
+        <div class="project">
+            <h3>Restaurant Website</h3>
+            <p>Responsive business website with form validation.</p>
+            <a href="https://mohammedismail-devops.github.io/restaurant-website/" target="_blank">Live</a> | <a href="https://mohammedismail-devops.github.io/restaurant-website/" target="_blank">Code</a>
+        </div>
+
+        <div class="project">
+            <h3>Web Agency Website</h3>
+            <p>Dark modern agency site for freelancers and startups.</p>
+            <a href="https://mohammedismail-devops.github.io/web-agency/" target="_blank">Live</a> | <a href="https://mohammedismail-devops.github.io/web-agency/" target="_blank">Code</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact reveal">
+    <h2>Contact</h2>
+    <p>Let’s work together</p>
+    <a href="mailto:your@email.com" class="btn">Email Me</a>
+</section>
+
+
+<script src="js/main.js"></script>
 </body>
 </html>
